@@ -26,5 +26,12 @@ namespace Test.Controllers
 
             return View();
         }
+
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
